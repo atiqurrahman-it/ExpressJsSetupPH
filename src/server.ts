@@ -3,7 +3,7 @@ import config from './app/config';
 
 async function main() {
   try {
-  //  data base connect 
+    //  data base connect
     app.listen(config.port, () => {
       console.log(`Example app listening on port ${config.port}`);
     });
